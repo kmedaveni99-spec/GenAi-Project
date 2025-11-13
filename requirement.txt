@@ -1,8 +1,28 @@
-langchain_openai 
-langchain_core
-python-dotenv
+# LangChain ecosystem 
+langchain==1.0.5
+langchain-core==1.0.4
+langchain-community==0.4.1
+langchain-openai==1.0.2
+langchain-classic==1.0.0
+langchain-ollama==1.0.0
+langchain-text-splitters==1.0.0
+langchainhub==0.1.21
+
+# Web app / API
 streamlit
-langchain_community
-langserve
 uvicorn
-sse_starlette
+sse-starlette
+langserve
+
+# Env + parsing
+python-dotenv
+pypdf           
+beautifulsoup4   #("bs4")
+
+# Vector stores / search
+chromadb
+faiss-cpu
+
+# Data sources
+wikipedia
+arxiv
